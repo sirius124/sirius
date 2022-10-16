@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>DOCTYPE</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+	<body>
+		<div class="container">
+		
+       <header class="header">
+	   <div class="container">
+			<div class="logo">
+				<h1>SIRIUS</h1>
+			</div>
+		<section class="section">
+            <input type="date" class="i-4">
+        </section>
+        <div class="wrapper">
+			<div class="input-data">
+			<input type="text" class="i-1">
+            <label>Наименование</label>
+			</div>
+        </div>
+
+		<div class="background">
+            <h3>Вид сьемки</h3>
+				<div class="group">
+					<input type="checkbox" class="i-7" id="i7" value="Свадьба">
+					<label for="i7">Свадьба</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-8" id="i8" value="Юбилей">
+					<label for="i8">Юбилей</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-9" id="i9" value="Love store">
+					<label for="i9">Love store</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-91" id="i91" value="фотосессии">
+					<label for="i91">фотосессии</label>
+				</div>
+		</div>
+		<div class="background">
+			<h3>Камеры</h3>
+				<div class="group">
+					<input type="checkbox" class="i-10" id="i10" value="1камера">
+					<label for="i10">1камера</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-11" id="i11" value="2камера">
+					<label for="i11">2камера</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-12" id="i12" value="3камера">
+					<label for="i12">3камера</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-13" id="i13" value="Дрон">
+					<label for="i13">Дрон</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-131" id="i131" value="Кран">
+					<label for="i131">Кран</label>
+				</div>
+				<div class="group">
+					<input type="checkbox" class="i-132" id="i132" value="Фотограф">
+					<label for="i132">Фотограф</label>
+				</div>
+		</div>
+			<input type="number" placeholder="Цена" id="n1"/><br/><br/>
+			<input type="number" placeholder="Предоплата" id="n2"/><br/><br/>
+			<button onclick="calc();"class="b-6">вывод</button>
+			<div class="backgroundout">
+				<h5>Видео-Фотосьемка<br>"STUDIO SIRIUS"</br></h5>
+				<h5>Спасибо, что выбрали нас!</h5>
+					<h6>Дата</h6><div class="out-block out-4"></div>
+					<div class="out-block out-1"></div>
+				<h6>Вид сьемки:</h6><div class="shooting">
+					<div class="out-block out-7"></div>
+					<div class="out-block out-8"></div>
+					<div class="out-block out-9"></div>
+					<div class="out-block out-91"></div>
+				</div>
+				<h6>Камеры:</h6><div class="camera">
+				<div class="out-block out-10"></div>
+				<div class="out-block out-11"></div>
+				<div class="out-block out-12"></div>
+				<div class="out-block out-13"></div>
+				<div class="out-block out-131"></div>
+				<div class="out-block out-132"></div>
+				</div>
+			<h6>Окончательная оплата</h6><input readonly type="text" id="result"/>
+			<h6>ТНГ<H6>
+		<a href="https://web.whatsapp.com/">открыт ватсап</a>
+		</div>
+    </div>
+	<select id="operators">
+				<option class="opt" value="-">-</option>
+	</select>		
+	<script src="java.js"></script>
+	</body>
+</html>
